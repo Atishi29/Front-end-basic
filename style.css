@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+body{
+    width:100%;
+    height:90vh;
+    background-image: url(Kuwait.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav { width:100%;
+    height:15vh;
+    background-color: rgba(200, 233, 216,0.45);
+    color: rgb(141, 27, 97);
+    display:flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+.logo {
+    margin-top: 19px;
+    width:25%;
+    text-align:center;
+    
+
+}
+.menu {
+    width: 37%;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    margin-top: 29px;
+    font-weight: bold;
+   
+    
+    
+}
+.menu a{
+    text-decoration: none;
+    text-decoration-color: rgb(192, 85, 188);
+}
+main {
+    width: 100%;
+    height:85vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    
+    
+}
+section{
+
+}
+section h4{
+    font-size: 45px;
+    font-weight:350;
+    letter-spacing:3px;
+    word-spacing:2.67px;
+    color: rgb(88, 12, 133);
+    text-shadow: 3px 3px 5px black;
+}
+section h1{
+    font-size: 45px;
+    font-weight:350;
+    letter-spacing:3px;
+    word-spacing:2.67px;
+    color:rgb(131, 25, 83);
+    text-shadow: 3px 3px 5px black;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+section p{
+    font-size: 20px;
+    font-weight:200;
+    letter-spacing:2px;
+    color:whitesmoke;
+    margin:4px 0 6px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+section a{
+    font-size: 20px;
+   font-weight:200;
+    color:blueviolet;
+    
+   padding: 5px 0px 5px 0px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 5 px;
+    display:flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    transition: all 1s ease;
+}
+ .btnone{
+    background-color:wheat;
+    margin:4px 4px 4px 4px;
+    
+    
+}
+
+section a.btntwo{
+    background-color:wheat;
+    
+    
+}
+.btnone:hover{
+color:black;
+background-color:lavenderblush;
+}
+.btntwo:hover{
+    background-color:lavenderblush;
+    color:black;
+}
+nav .swing{
+    animation:bounce;
+    animation-duration: 1s;
+
+}
+.container:after{
+    content:" ";
+    animation: changetext 10s infinite linear;
+    color:wheat;
+
+}
+@keywords changetext{
+    0%{content:"Abbasiya";}
+    20%{content:"Salmiya";}
+    40%{content:"Farwaniya";}
+    60%{content:"Shuwaikh";}
+    80%{content:"Al-Rai";}
+    100%{content:"Regai";}
+}
+ 
